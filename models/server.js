@@ -29,10 +29,13 @@ const newSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    fileUrl:{
+    fileBase64:{
         type: String,
-        required: true
-    }
+        required: false
+    },
+    decodedImage:{
+        type: Binary,
+        required: false
 })
 
 
