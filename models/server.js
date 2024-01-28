@@ -7,7 +7,7 @@ const cors = require('cors');
 
 
 //connecting to mongoDB
-mongoose.connect("mongodb+srv://stanfy79:pro123456@cluster0.nnapghi.mongodb.net/", { useNewUrlParser: true }, { useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://username:password/", { useNewUrlParser: true }, { useUnifiedTopology: true })
 .then(() => {
     console.log("Connected to database")
 })
